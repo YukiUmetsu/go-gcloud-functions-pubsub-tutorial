@@ -4,7 +4,7 @@ https://cloud.google.com/sdk/docs/cheatsheet?hl=ja
 <br/><br/>
 
 
-#プロジェクト関連
+# プロジェクト関連
 
 プロジェクトの作成<br/>
 `gcloud projects create [PROJECT_ID] `
@@ -22,7 +22,7 @@ https://cloud.google.com/sdk/docs/cheatsheet?hl=ja
 `gcloud services enable cloudfunctions.googleapis.com`
 
 
-#Pub/Sub
+# Pub/Sub
 
 
 トピック作成<br/>
@@ -31,7 +31,7 @@ https://cloud.google.com/sdk/docs/cheatsheet?hl=ja
 
 
 
-#Cloud Functions
+# Cloud Functions
 
 Deploy “Send” function - http trigger<br/>
 `gcloud alpha functions deploy api --entry-point Send --runtime go111 --trigger-http --set-env-vars PROJECT_ID=gcloud-func-tutorial1234
