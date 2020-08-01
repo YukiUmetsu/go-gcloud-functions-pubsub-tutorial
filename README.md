@@ -3,7 +3,13 @@ Simple gcloud functions with Golang.<br/>
 https://cloud.google.com/sdk/docs/cheatsheet?hl=ja
 <br/><br/>
 
-
+# Objective
+Function 1: Send<br/>
+triggered by http request and publish a pubsub message with random number.
+<br/><br/>
+Function 2: Consume<br/>
+triggered by a pubsub message from a topic and record a log.
+<br/><br/>
 # プロジェクト関連
 
 プロジェクトの作成<br/>
